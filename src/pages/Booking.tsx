@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Calendar, Users, Clock, Mountain, CheckCircle, AlertCircle, CreditCard } from 'lucide-react';
+import { Calendar, Users, Clock, Mountain, CheckCircle, AlertCircle, CreditCard, Phone, MessageCircle } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
