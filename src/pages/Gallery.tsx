@@ -151,7 +151,7 @@ const Gallery = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-blue-600 to-green-600 text-white">
+      <section className="relative py-20 bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6 animate-fade-in">Gallery</h1>
@@ -211,7 +211,7 @@ const Gallery = () => {
                   </div>
                   
                   {/* Overlay with stats */}
-                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                  <div className="absolute bottom-0 left-0 right-0 bg-black/70 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-4">
                         <div className="flex items-center space-x-1">

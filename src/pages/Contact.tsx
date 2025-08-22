@@ -97,7 +97,7 @@ const Contact = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-blue-600 to-green-600 text-white">
+      <section className="relative py-20 bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6 animate-fade-in">Get in Touch</h1>
@@ -246,7 +246,7 @@ const Contact = () => {
                 <CardContent>
                   <div className="aspect-video bg-gray-200 rounded-lg mb-6 overflow-hidden">
                     {/* Placeholder for Google Map */}
-                    <div className="w-full h-full bg-gradient-to-br from-blue-200 to-green-200 flex items-center justify-center">
+                    <div className="w-full h-full bg-accent flex items-center justify-center">
                       <div className="text-center">
                         <MapPin className="h-12 w-12 text-gray-600 mx-auto mb-2" />
                         <p className="text-gray-600">Interactive Map</p>

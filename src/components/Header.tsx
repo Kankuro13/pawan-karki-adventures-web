@@ -47,7 +47,7 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Button asChild className="bg-gradient-to-r from-blue-600 to-green-600 hover:from-blue-700 hover:to-green-700">
+            <Button asChild className="bg-primary hover:bg-primary/90">
               <Link to="/booking">Book Your Tour</Link>
             </Button>
           </nav>
@@ -77,7 +77,7 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button asChild className="mt-2 bg-gradient-to-r from-blue-600 to-green-600 hover:from-blue-700 hover:to-green-700">
+              <Button asChild className="mt-2 bg-primary hover:bg-primary/90">
                 <Link to="/booking" onClick={() => setIsMenuOpen(false)}>Book Your Tour</Link>
               </Button>
             </nav>

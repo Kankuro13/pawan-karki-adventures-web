@@ -141,7 +141,7 @@ const Blog = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-blue-600 to-green-600 text-white">
+      <section className="relative py-20 bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6 animate-fade-in">Travel Blog</h1>

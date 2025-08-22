@@ -151,7 +151,7 @@ const Testimonials = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-blue-600 to-green-600 text-white">
+      <section className="relative py-20 bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6 animate-fade-in">What Travelers Say</h1>
@@ -351,7 +351,7 @@ const Testimonials = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-green-600 text-white">
+      <section className="py-16 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold mb-4">Ready to Create Your Own Adventure?</h2>
           <p className="text-xl mb-8">
